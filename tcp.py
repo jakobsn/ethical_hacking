@@ -1,13 +1,12 @@
 import socket
-target_host = "127.0.0.1"
-target_port = 80
+target_host = "0.0.0.0"
+target_port = 9999
 # create a socket object
-
-client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# connect the client
+client.connect((target_host, target_port))
 # send some data
-
-client.sendto("AAABBBCCC",(target_host,target_port))
+client.send("ABCDEF")
 # receive some data
-
-data, addr = client.recvfrom(4096)
-print data
+response = client.recv(4096)
+print response
