@@ -18,7 +18,7 @@ def brute():
         for j in range(256): 
             key = "".join([chr(j), chr(i)]).ljust(16, "\x00") 
             result = decrypt(key) 
-            if "flag" in result: 
+            if "PK.." in result: 
                 print(result) 
                 print("key :", key.encode("hex"))
                 return 
