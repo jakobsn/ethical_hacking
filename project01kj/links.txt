@@ -1,0 +1,7 @@
+project files: https://github.com/angr/angr-doc/tree/master/examples/secconquals2016_ropsynth
+ROPCHAIN blogg: https://blog.ropchain.com/category/challenge/
+ROP explained: https://en.wikipedia.org/wiki/Return-oriented_programming
+ROP explained: https://www.youtube.com/watch?v=yS9pGmY_xuo
+ROP explained: https://www.youtube.com/watch?v=5FJxC59hMRY&list=PLZg6thPW8PfJAlUVY97CIiM4mebVVgBE3&pbjreload=10
+ROP attack demo: https://www.youtube.com/watch?v=a8_fDdWB2-M
+ROP lecture: https://www.youtube.com/watch?v=tqO3gU-IVos&list=PLZg6thPW8PfJAlUVY97CIiM4mebVVgBE3&index=4
