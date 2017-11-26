@@ -1,0 +1,4 @@
+20171017|1412|gnome-terminal-server|.Window'>(|root|jakob@jakob-Aspire-VN7-591G: ~/Dropbox/skole/2017-2018/host/ethical_hacking/keylogger/pykeylogger-1.2.1|ccxn[KeyName:Alt_L]1[KeyName:Control_L][KeyName:Alt_L][KeyName:Tab][KeyName:Tab]
+20171017|1415|gnome-terminal-server|.Window'>(|root|jakob@jakob-Aspire-VN7-591G: ~/Dropbox/skole/2017-2018/host/ethical_hacking/keylogger/pykeylogger-1.2.1|[KeyName:Control_R][KeyName:Control_L][KeyName:F12]
+20171017|1415||.Window'>(|root||[KeyName:Return]
+20171017|1417|140639980746368|.Window'>(|root|Detailed Log Writer Settings|gmail

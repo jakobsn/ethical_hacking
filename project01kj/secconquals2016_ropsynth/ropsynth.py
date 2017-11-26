@@ -62,6 +62,7 @@ def main(argv):
         stage += 1
 
     if stage >= 6:
+
         print_msg(flag)
 
 if __name__ == '__main__':
