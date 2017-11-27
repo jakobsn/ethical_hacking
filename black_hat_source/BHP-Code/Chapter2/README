@@ -1,0 +1,27 @@
+      UNIVERSITY OF CAMBRIDGE ANONYMOUS FTP SERVER
+
+Please note that to get a list of all files and directories
+using ftp, the command should be either "ls" or "dir" for short
+or long listing respectively.
+
+This is the top-level directory.
+
+To navigate into the archive, use the command
+
+   cd  pub
+
+or (for Cambridge users only)
+
+   cd cam_only
+
+                    PRIVACY POLICY
+
+This ftp server maintains logs of all logins and files
+transferred. These logs are kept for the purpose of system
+administration, bug tracking and usage statistics. The information
+is kept for approximately one month.
+
+Relevant extracts of logs may be passed to computer security teams
+as part of investigations of specific attacks involving the ftp server.
+Otherwise the logged information is not passed to any third party
+except where required by law.

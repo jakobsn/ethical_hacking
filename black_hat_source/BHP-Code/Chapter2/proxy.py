@@ -25,7 +25,7 @@ def receive_from(connection):
 
 	# We set a 2 second time out depending on your 
 	# target this may need to be adjusted
-	connection.settimeout(2)
+	connection.settimeout(10)
 	
         try:
                 # keep reading into the buffer until there's no more data
