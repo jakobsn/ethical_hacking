@@ -36,14 +36,12 @@ BobPublicKey.l = (BobPublicKey.p - 1) * (BobPublicKey.q - 1)
 print "Lambda Alice", AlicePublicKey.l
 print ""
 
-
 def egcd(a, b):
     if a == 0:
         return (b, 0, 1)
     else:
         g, y, x = egcd(b % a, a)
         return (g, x - (b // a) * y, y)
-
 
 def modinv(a, m):
     g, x, y = egcd(a, m)
